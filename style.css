@@ -93,14 +93,16 @@ nav ul li a{
 
 /* menu container  */
 
-
+.menu{
+  
+}
 
 
 .menu-section{
     margin-top: 10%;
-   margin-bottom: 30px;
-   margin-left: 10px;
-   
+    margin-bottom: 30px;
+  
+
   
   
    
@@ -113,9 +115,8 @@ nav ul li a{
 }
 .menu-display{
       margin-top: 40px;
-      justify-content: center;
-      align-items: center;
       margin-left: 20%;
+      
    
     
    
@@ -124,7 +125,7 @@ nav ul li a{
    .menu-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-     
+   
    }
 
 
@@ -278,7 +279,14 @@ nav ul li a{
      }
      .menu-container {
         grid-template-columns: 1fr;
-        
+        align-items: center;
+      }
+      .menu-display{
+        margin-left: auto;
+      }
+      .img-end > img{
+        width: 100%;
+        padding: 30px;
       }
       .detail-end{
         margin-left: 9%;
